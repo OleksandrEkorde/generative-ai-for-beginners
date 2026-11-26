@@ -1,11 +1,10 @@
 #!/bin/bash
 
-# Install OpenAI and Dotenv for Python
-# TODO: Check why this can't be done in requirements.txt
+# Install Google Gen AI SDK (Gemini) and Dotenv for Python
 python3 -m pip install python-dotenv
-python3 -m pip install openai
+python3 -m pip install google-genai
 
-# Install the OpenAI packages for Node.js
+# Install the Gemini SDK for Node.js
 # (Python related dependencies are covered in requirements.txt)
-# echo "Installing OpenAI For Node.js" 
-# npm install --save openai
+# echo "Installing Google Gen AI SDK For Node.js"
+# npm install --save @google/genai
